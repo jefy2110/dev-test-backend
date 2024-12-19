@@ -13,11 +13,13 @@ namespace HotelApi.Controllers
     {
         private readonly string _jsonFilePath;
 
+        /// Initializes the controller with a configuration for the JSON file path.
         public HotelsController(IConfiguration configuration)
         {
             _jsonFilePath = configuration["HotelsDataPath"] ?? "Data/hotels.json";
         }
 
+        /// loads and returns the list of hotels from the JSON file.
         private List<Hotel> LoadHotels()
         {
             try
@@ -45,6 +47,8 @@ namespace HotelApi.Controllers
         }
 
         [HttpGet]
+        
+        /// Endpoint for retrieving the list of all hotels.
         public IActionResult GetHotels()
         {
             try
@@ -71,6 +75,8 @@ namespace HotelApi.Controllers
         }
 
         [HttpGet("{id}")]
+
+        /// Endpoint for retrieving the details of a specific hotel by ID.
         public IActionResult GetHotelById(int id)
         {
             try
