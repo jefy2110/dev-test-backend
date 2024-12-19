@@ -28,3 +28,4 @@ C:\Users\jaafar\Documents\GitHub\dev-test-backend\HotelApi\obj\Debug\net9.0\refi
 C:\Users\jaafar\Documents\GitHub\dev-test-backend\HotelApi\obj\Debug\net9.0\HotelApi.pdb
 C:\Users\jaafar\Documents\GitHub\dev-test-backend\HotelApi\obj\Debug\net9.0\HotelApi.genruntimeconfig.cache
 C:\Users\jaafar\Documents\GitHub\dev-test-backend\HotelApi\obj\Debug\net9.0\ref\HotelApi.dll
+C:\Users\jaafar\Documents\GitHub\dev-test-backend\HotelApi\bin\Debug\net9.0\package-lock.json
